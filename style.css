@@ -11,7 +11,7 @@ header {
   border-bottom: 1px solid #ccc;
 }
 
-header nav { 
+header nav {
   float: right;
 }
 
@@ -29,6 +29,11 @@ nav a {
   text-decoration: none;
   color: #007bff;
   font-size: 18px;
+}
+
+nav a:hover { 
+    text-decoration: underline;
+    color: #0056b3;
 }
 
 #header a{
@@ -55,6 +60,11 @@ div.jumbotron {
   font-size: 20px;
   padding: 0 40px 0 40px;
   line-height: 40px;
+}
+
+div.questions{
+padding: 0 20px 0 20px;
+
 }
 
 footer{
